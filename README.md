@@ -10,12 +10,11 @@ How Data Flows:
 
     Emergency: Button Press → ISR → [Semaphore] → SafetyTask (Preempts everything else!) → [Mutex] → Serial Monitor.
 
-Why This Matters for Your Career
+Features:
 
-    Scalability: You can now add a WiFi task or a Display task without rewriting your sensor logic. You just add a new thread.
+    Scalability: add a WiFi task or a Display task without rewriting your sensor logic. You just add a new thread.
 
-    Responsiveness: You learned that high-priority safety code runs immediately, even if the processor is busy doing math.
+    Responsiveness: high-priority safety code runs immediately, even if the processor is busy doing math.
 
-    Stability: You solved the "Garbled Text" problem, which is exactly how engineers solve memory corruption in complex drivers.
+    Stability: the "Garbled Text" problem, which is exactly how engineers solve memory corruption in complex drivers.
 
-This project is a perfect "Hello World" to the professional embedded systems architecture used in automotive and aerospace industries.
